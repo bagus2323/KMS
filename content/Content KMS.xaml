@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Content_KMS" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,3262" sap2010:WorkflowViewState.IdRef="Content_KMS_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Content_KMS" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,3324" sap2010:WorkflowViewState.IdRef="Content_KMS_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -64,13 +64,13 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="KMS content/artikel" sap:VirtualizedContainerService.HintSize="509,3305" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="KMS content/artikel" sap:VirtualizedContainerService.HintSize="509,3159" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open KMS Kewenangan dev" sap:VirtualizedContainerService.HintSize="467,3067" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://outsystemsdev.corp.bankmandiri.co.id/KMS_Portal/ListContentAdm.aspx">
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open KMS Kewenangan dev" sap:VirtualizedContainerService.HintSize="467,3067" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://outsystemsdev.corp.bankmandiri.co.id/KMS_Portal/ListContentAdm.aspx?(Not.Licensed.For.Production)=">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -104,7 +104,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'title'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="testing automation 8">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'title'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="testing automation 9">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4254b760-fda1-4d51-b2a1-b275f307a47b" InformativeScreenshot="676465dcfbc189396c5431b6fbc5c386" Selector="&lt;webctrl aaname='Title' tag='INPUT' type='text' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -227,7 +227,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="TypeInto_10" Text="Draft Petunjuk Teknis Operasional (PTO) - Agent Banking System (ABS) rev5.pdf">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="TypeInto_10" Text="Petunjuk Teknis Operasional Business Impact Analysis (BIA) Edisi 1 Tahun 2021  (1)">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e9ae1e1c-8882-4e65-9023-0ba6c2d494ed" InformativeScreenshot="37dc548428fb3d7d785dcffc5e616133" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -410,7 +410,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4fc6bf95-49dc-49e3-8a76-a8810383ed47" InformativeScreenshot="14ad869a713f3c0133fe3c44b803d333" Selector="&lt;webctrl aaname='Save' id='wt28_OutSystemsUIWeb_wt21_block_wtContent_wtMainContent_KMS_Port*' parentid='wt28_OutSystemsUIWeb_wt21_block_wtContent_wtMainContent' tag='INPUT' type='submit' /&gt;" WaitForReady="NONE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4fc6bf95-49dc-49e3-8a76-a8810383ed47" InformativeScreenshot="c54c924341947678fd7f897c764a5b71" Selector="&lt;webctrl aaname='Save Draft' id='wt28_OutSystemsUIWeb_wt21_block_wtContent_wtMainContent_KMS_Port*' parentid='wt28_OutSystemsUIWeb_wt21_block_wtContent_wtMainContent' tag='INPUT' type='submit' /&gt;" WaitForReady="NONE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
